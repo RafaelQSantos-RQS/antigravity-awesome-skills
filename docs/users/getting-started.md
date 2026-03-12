@@ -1,4 +1,4 @@
-# Getting Started with Antigravity Awesome Skills (V7.0.0)
+# Getting Started with Antigravity Awesome Skills (V7.6.0)
 
 **New here? This guide will help you supercharge your AI Agent in 5 minutes.**
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 🤔 What Are "Skills"?
+## What Are "Skills"?
 
 AI Agents (like **Claude Code**, **Gemini**, **Cursor**) are smart, but they lack specific knowledge about your tools.
 **Skills** are specialized instruction manuals (markdown files) that teach your AI how to perform specific tasks perfectly, every time.
@@ -15,7 +15,7 @@ AI Agents (like **Claude Code**, **Gemini**, **Cursor**) are smart, but they lac
 
 ---
 
-## ⚡️ Quick Start: The "Starter Packs"
+## Quick Start: The "Starter Packs"
 
 Don't panic about the 1,200+ skills. You don't need them all at once.
 We have curated **Starter Packs** to get you running immediately.
@@ -54,7 +54,7 @@ Find the bundle that matches your role (see [bundles.md](bundles.md)):
 
 ---
 
-## 🧭 Bundles vs Workflows
+## Bundles vs Workflows
 
 Bundles and workflows solve different problems:
 
@@ -69,7 +69,7 @@ Example:
 
 ---
 
-## 🚀 How to Use a Skill
+## How to Use a Skill
 
 Once installed, just talk to your AI naturally.
 
@@ -110,7 +110,7 @@ Once installed, just talk to your AI naturally.
 
 ---
 
-## 🛡️ Trust & Safety (New in V4)
+## Trust & Safety
 
 We classify skills so you know what you're running:
 
@@ -122,20 +122,23 @@ _Check the [Skill Catalog](../../CATALOG.md) for the full list._
 
 ---
 
-## ❓ FAQ
+## FAQ
 
-**Q: Do I need to install all 1,204+ skills?**
+**Q: Do I need to install all 1,250+ skills?**
 A: You clone the whole repo once; your AI only _reads_ the skills you invoke (or that are relevant), so it stays lightweight. **Starter Packs** in [bundles.md](bundles.md) are curated lists to help you discover the right skills for your role—they don't change how you install.
 
 **Q: Can I make my own skills?**
 A: Yes! Use the **@skill-creator** skill to build your own.
+
+**Q: What if Antigravity on Windows gets stuck in a truncation crash loop?**
+A: Follow the recovery steps in [windows-truncation-recovery.md](windows-truncation-recovery.md). It explains which Antigravity storage folders to back up and clear, and includes an optional batch helper adapted from [issue #274](https://github.com/sickn33/antigravity-awesome-skills/issues/274).
 
 **Q: Is this free?**
 A: Yes, MIT License. Open Source forever.
 
 ---
 
-## ⏭️ Next Steps
+## Next Steps
 
 1. [Browse the Bundles](bundles.md)
 2. [See Real-World Examples](../contributors/examples.md)

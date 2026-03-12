@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1239
+Total skills: 1250
 
 ## architecture (80)
 
@@ -100,7 +100,7 @@ pagef... | robius, widget | robius, widget, critical, triggers, apply, textorima
 | `workflow-patterns` | Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding th... |  | skill, implementing, tasks, according, conductor, tdd, handling, phase, checkpoints, managing, git, commits |
 | `zapier-make-patterns` | No-code automation democratizes workflow building. Zapier and Make (formerly Integromat) let non-developers automate business processes without writing code.... | zapier, make | zapier, make, no, code, automation, democratizes, building, formerly, integromat, let, non, developers |
 
-## business (55)
+## business (56)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -125,6 +125,7 @@ pagef... | robius, widget | robius, widget, critical, triggers, apply, textorima
 | `free-tool-strategy` | When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user m... | free | free, user, wants, plan, evaluate, marketing, purposes, lead, generation, seo, value, brand |
 | `growth-engine` | Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO, viral loops, email marketing, CRM, referral programs e aquisicao organica. Ativar pa... | growth, seo, marketing, viral, acquisition | growth, seo, marketing, viral, acquisition, engine, motor, de, crescimento, para, produtos, digitais |
 | `hr-pro` | Professional, ethical HR partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations. | hr | hr, pro, professional, ethical, partner, hiring, onboarding, offboarding, pto, leave, performance, compliant |
+| `keyword-extractor` | Extracts up to 50 highly relevant SEO keywords from text. Use when user wants to generate or extract keywords for given text. | keyword, extractor | keyword, extractor, extracts, up, 50, highly, relevant, seo, keywords, text, user, wants |
 | `leiloeiro-juridico` | Analise juridica de leiloes: nulidades, bem de familia, alienacao fiduciaria, CPC arts 829-903, Lei 9514/97, onus reais, embargos e jurisprudencia. | legal, auction-law, brazilian, judicial | legal, auction-law, brazilian, judicial, leiloeiro, juridico, analise, juridica, de, leiloes, nulidades, bem |
 | `linkedin-cli` | Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator. | linkedin, cli | linkedin, cli, automating, via, fetch, profiles, search, people, companies, send, messages, connections |
 | `local-legal-seo-audit` | Audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directorie... | local, legal, seo, audit | local, legal, seo, audit, improve, law, firms, attorneys, forensic, experts, professional, sites |
@@ -167,7 +168,7 @@ calculations | startup, business, analyst, market, opportunity | startup, busine
 | `warren-buffett` | Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual de Char... | persona, investing, value-investing, business | persona, investing, value-investing, business, warren, buffett, agente, que, simula, maior, investidor, do |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (228)
+## data-ai (229)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -408,6 +409,7 @@ Scope::with_data, save state, load state, serde,
 | `wellally-tech` | Integrate digital health data sources (Apple Health, Fitbit, Oura Ring) and connect to WellAlly.tech knowledge base. Import external health device data, stan... | wellally, tech | wellally, tech, integrate, digital, health, data, sources, apple, fitbit, oura, ring, connect |
 | `xlsx-official` | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work ... | xlsx, official | xlsx, official, spreadsheet, creation, editing, analysis, formulas, formatting, data, visualization, claude, work |
 | `yann-lecun` | Agente que simula Yann LeCun — inventor das Convolutional Neural Networks, Chief AI Scientist da Meta, Prêmio Turing 2018. Use quando quiser: perspectivas so... | persona, cnn, meta, ai-safety-critic, open-source | persona, cnn, meta, ai-safety-critic, open-source, yann, lecun, agente, que, simula, inventor, das |
+| `yes-md` | 6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest. | yes, md | yes, md, layer, ai, governance, safety, gates, evidence, debugging, anti, slack, detection |
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 
 ## development (179)
@@ -598,7 +600,7 @@ no matching field, parse error, widget... | makepad, reference | makepad, refere
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js... | zod, validation | zod, validation, typescript, first, schema, covers, parsing, custom, errors, refinements, type, inference |
 | `zustand-store-ts` | Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creati... | zustand, store, ts | zustand, store, ts, stores, typescript, subscribewithselector, middleware, proper, state, action, separation, building |
 
-## general (293)
+## general (297)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -670,6 +672,7 @@ no matching field, parse error, widget... | makepad, reference | makepad, refere
 | `context-optimization` | This skill should be used when the user asks to "optimize context", "reduce token costs", "improve context efficiency", "implement KV-cache optimization", "p... | optimization | optimization, context, skill, should, used, user, asks, optimize, reduce, token, costs, improve |
 | `cpp-pro` | Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization. | cpp | cpp, pro, write, idiomatic, code, features, raii, smart, pointers, stl, algorithms, move |
 | `create-branch` | Create a git branch following Sentry naming conventions. Use when asked to "create a branch", "new branch", "start a branch", "make a branch", "switch to a n... | create, branch | create, branch, git, following, sentry, naming, conventions, asked, new, start, switch, starting |
+| `create-issue-gate` | Use when starting a new implementation task and an issue must be created with strict acceptance criteria gating before execution. | create, issue, gate | create, issue, gate, starting, new, task, must, created, strict, acceptance, criteria, gating |
 | `daily` | Documentation and capabilities reference for Daily | daily | daily, documentation, capabilities, reference |
 | `daily-news-report` | Scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports. | daily, news, report | daily, news, report, scrapes, content, preset, url, list, filters, high, quality, technical |
 | `debugging-strategies` | Master systematic debugging techniques, profiling tools, and root cause analysis to efficiently track down bugs across any codebase or technology stack. Use ... | debugging, strategies | debugging, strategies, systematic, techniques, profiling, root, cause, analysis, efficiently, track, down, bugs |
@@ -693,6 +696,7 @@ no matching field, parse error, widget... | makepad, reference | makepad, refere
 evolve, evolution, contribute, contribution, self-improve, self-improvement,
 a... | evolution | evolution, critical, makepad, skills, self, contribution, triggers, evolve, contribute, improve, improvement, add |
 | `executing-plans` | Use when you have a written implementation plan to execute in a separate session with review checkpoints | executing, plans | executing, plans, written, plan, execute, separate, session, review, checkpoints |
+| `explain-like-socrates` | Explains concepts using Socratic-style dialogue. Use when the user asks to explain, teach or help understand a concept like socrates. | explain, like, socrates | explain, like, socrates, explains, concepts, socratic, style, dialogue, user, asks, teach, understand |
 | `expo-dev-client` | Build and distribute Expo development clients locally or via TestFlight | expo, dev, client | expo, dev, client, distribute, development, clients, locally, via, testflight |
 | `expo-ui-jetpack-compose` | expo-ui-jetpack-compose | expo, ui, jetpack, compose | expo, ui, jetpack, compose |
 | `expo-ui-swift-ui` | expo-ui-swift-ui | expo, ui, swift | expo, ui, swift |
@@ -750,6 +754,7 @@ a... | evolution | evolution, critical, makepad, skills, self, contribution, tri
 | `interactive-portfolio` | Expert in building portfolios that actually land jobs and clients - not just showing work, but creating memorable experiences. Covers developer portfolios, d... | interactive, portfolio | interactive, portfolio, building, portfolios, actually, land, jobs, clients, just, showing, work, creating |
 | `internal-comms-anthropic` | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenev... | internal, comms, anthropic | internal, comms, anthropic, set, resources, me, write, all, kinds, communications, formats, my |
 | `internal-comms-community` | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenev... | internal, comms, community | internal, comms, community, set, resources, me, write, all, kinds, communications, formats, my |
+| `interview-coach` | Full job search coaching system — JD decoding, resume, storybank, mock interviews, transcript analysis, comp negotiation. 23 commands, persistent state. | interview, job-search, coaching, career, storybank, negotiation | interview, job-search, coaching, career, storybank, negotiation, coach, full, job, search, jd, decoding |
 | `inventory-demand-planning` | Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift estimation at multi-location retailers. | inventory, demand, planning | inventory, demand, planning, codified, expertise, forecasting, safety, stock, optimisation, replenishment, promotional, lift |
 | `issues` | Interact with GitHub issues - create, list, and view issues. | issues | issues, interact, github, list, view |
 | `julia-pro` | Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices. | julia | julia, pro, 10, features, performance, optimization, multiple, dispatch |
@@ -858,6 +863,7 @@ matrix-sdk, matrix client, robrix, mat... | robius, matrix, integration | robius
 | `shellcheck-configuration` | Master ShellCheck static analysis configuration and usage for shell script quality. Use when setting up linting infrastructure, fixing code issues, or ensuri... | shellcheck, configuration | shellcheck, configuration, static, analysis, usage, shell, script, quality, setting, up, linting, infrastructure |
 | `shodan-reconnaissance` | This skill should be used when the user asks to "search for exposed devices on the internet," "perform Shodan reconnaissance," "find vulnerable services usin... | shodan, reconnaissance | shodan, reconnaissance, skill, should, used, user, asks, search, exposed, devices, internet, perform |
 | `signup-flow-cro` | When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions "signup conversions," "reg... | signup, flow, cro | signup, flow, cro, user, wants, optimize, registration, account, creation, trial, activation, flows |
+| `skill-check` | Validate Claude Code skills against the agentskills specification. Catches structural, semantic, and naming issues before users do. | validation, linter, agentskills, skill-authoring, code-quality | validation, linter, agentskills, skill-authoring, code-quality, skill, check, validate, claude, code, skills, against |
 | `skill-creator` | This skill should be used when the user asks to create a new skill, build a skill, make a custom skill, develop a CLI skill, or wants to extend the CLI with ... | [automation, scaffolding, skill-creation, meta-skill] | [automation, scaffolding, skill-creation, meta-skill], skill, creator, should, used, user, asks, new, custom |
 | `skill-improver` | Iteratively reviews and fixes Claude Code skill quality issues until they meet standards. Runs automated fix-review cycles using the skill-reviewer agent. Us... | skill, improver | skill, improver, iteratively, reviews, fixes, claude, code, quality, issues, until, meet, standards |
 | `skill-rails-upgrade` | Analyze Rails apps and provide upgrade assessments | skill, rails, upgrade | skill, rails, upgrade, analyze, apps, provide, assessments |
@@ -914,10 +920,11 @@ matrix-sdk, matrix client, robrix, mat... | robius, matrix, integration | robius
 | `yann-lecun-tecnico` | Sub-skill técnica de Yann LeCun. Cobre CNNs, LeNet, backpropagation, JEPA (I-JEPA, V-JEPA, MC-JEPA), AMI (Advanced Machinery of Intelligence), Self-Supervise... | persona, cnn, jepa, self-supervised, pytorch | persona, cnn, jepa, self-supervised, pytorch, yann, lecun, tecnico, sub, skill, cnica, de |
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | [video, summarization, transcription, youtube, content-analysis] | [video, summarization, transcription, youtube, content-analysis], summarizer, extract, transcripts, videos, generate, detailed, summaries |
 
-## infrastructure (132)
+## infrastructure (134)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
+| `acceptance-orchestrator` | Use when a coding task should be driven end-to-end from issue intake through implementation, review, deployment, and acceptance verification with minimal hum... | acceptance, orchestrator | acceptance, orchestrator, coding, task, should, driven, issue, intake, through, review, deployment, verification |
 | `agent-evaluation` | Testing and benchmarking LLM agents including behavioral testing, capability assessment, reliability metrics, and production monitoring—where even top agents... | agent, evaluation | agent, evaluation, testing, benchmarking, llm, agents, including, behavioral, capability, assessment, reliability, metrics |
 | `airflow-dag-patterns` | Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment. Use when creating data pipelines, orchestrating wor... | airflow, dag | airflow, dag, apache, dags, operators, sensors, testing, deployment, creating, data, pipelines, orchestrating |
 | `api-testing-observability-api-mock` | You are an API mocking expert specializing in realistic mock services for development, testing, and demos. Design mocks that simulate real API behavior and e... | api, observability, mock | api, observability, mock, testing, mocking, specializing, realistic, development, demos, mocks, simulate, real |
@@ -957,6 +964,7 @@ scripts. | bash | bash, pro, defensive, scripting, automation, ci, cd, pipelines
 | `cicd-automation-workflow-automate` | You are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, and automated development processes. Desig... | cicd, automate | cicd, automate, automation, specializing, creating, efficient, ci, cd, pipelines, github, actions, automated |
 | `claude-d3js-skill` | Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisati... | claude, d3js, skill | claude, d3js, skill, creating, interactive, data, visualisations, d3, js, should, used, custom |
 | `claude-monitor` | Monitor de performance do Claude Code e sistema local. Diagnostica lentidao, mede CPU/RAM/disco, verifica API latency e gera relatorios de saude do sistema. | monitoring, performance, diagnostics, system-health | monitoring, performance, diagnostics, system-health, claude, monitor, de, do, code, sistema, local, diagnostica |
+| `closed-loop-delivery` | Use when a coding task must be completed against explicit acceptance criteria with minimal user re-intervention across implementation, review feedback, deplo... | closed, loop, delivery | closed, loop, delivery, coding, task, must, completed, against, explicit, acceptance, criteria, minimal |
 | `cloud-architect` | Expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and ... | cloud | cloud, architect, specializing, aws, azure, gcp, multi, infrastructure, iac, terraform, opentofu, cdk |
 | `cloud-devops` | Cloud infrastructure and DevOps workflow covering AWS, Azure, GCP, Kubernetes, Terraform, CI/CD, monitoring, and cloud-native development. | cloud, devops | cloud, devops, infrastructure, covering, aws, azure, gcp, kubernetes, terraform, ci, cd, monitoring |
 | `code-review-ai-ai-review` | You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Levera... | code, ai | code, ai, review, powered, combining, automated, static, analysis, intelligent, recognition, devops, leverage |
@@ -1056,7 +1064,7 @@ distri... | makepad, deployment | makepad, deployment, critical, packaging, trig
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 | `x-twitter-scraper` | X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction too... | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks] | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks], twitter, scraper, data |
 
-## security (142)
+## security (145)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1065,6 +1073,7 @@ distri... | makepad, deployment | makepad, deployment, critical, packaging, trig
 | `active-directory-attacks` | This skill should be used when the user asks to "attack Active Directory", "exploit AD", "Kerberoasting", "DCSync", "pass-the-hash", "BloodHound enumeration"... | active, directory, attacks | active, directory, attacks, skill, should, used, user, asks, attack, exploit, ad, kerberoasting |
 | `agent-memory-systems` | Memory is the cornerstone of intelligent agents. Without it, every interaction starts from zero. This skill covers the architecture of agent memory: short-te... | agent, memory | agent, memory, cornerstone, intelligent, agents, without, every, interaction, starts, zero, skill, covers |
 | `agentic-actions-auditor` | Audits GitHub Actions workflows for security vulnerabilities in AI agent integrations including Claude Code Action, Gemini CLI, OpenAI Codex, and GitHub AI I... | agentic, actions, auditor | agentic, actions, auditor, audits, github, security, vulnerabilities, ai, agent, integrations, including, claude |
+| `ai-md` | Convert human-written CLAUDE.md into AI-native structured-label format. Battle-tested across 4 models. Same rules, fewer tokens, higher compliance. | ai, md | ai, md, convert, human, written, claude, native, structured, label, format, battle, tested |
 | `antigravity-workflows` | Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA. | antigravity | antigravity, orchestrate, multiple, skills, through, guided, saas, mvp, delivery, security, audits, ai |
 | `api-endpoint-builder` | Builds production-ready REST API endpoints with validation, error handling, authentication, and documentation. Follows best practices for security and scalab... | api, endpoint, builder | api, endpoint, builder, rest, endpoints, validation, error, handling, authentication, documentation, follows, security |
 | `api-fuzzing-bug-bounty` | This skill should be used when the user asks to "test API security", "fuzz APIs", "find IDOR vulnerabilities", "test REST API", "test GraphQL", "API penetrat... | api, fuzzing, bug, bounty | api, fuzzing, bug, bounty, skill, should, used, user, asks, test, security, fuzz |
@@ -1131,8 +1140,10 @@ distri... | makepad, deployment | makepad, deployment, critical, packaging, trig
 | `laravel-security-audit` | Security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel sec... | laravel, security, audit | laravel, security, audit, auditor, applications, analyzes, code, vulnerabilities, misconfigurations, insecure, owasp, standards |
 | `legal-advisor` | Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements. | legal, advisor | legal, advisor, draft, privacy, policies, terms, disclaimers, notices, creates, gdpr, compliant, texts |
 | `leiloeiro-edital` | Analise e auditoria de editais de leilao judicial e extrajudicial. Riscos ocultos, clausulas perigosas, debitos, ocupante e classificacao da oportunidade. | auction, legal-analysis, risk, brazilian | auction, legal-analysis, risk, brazilian, leiloeiro, edital, analise, auditoria, de, editais, leilao, judicial |
+| `lex` | Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffolding. | legal, context, cross-jurisdictional, compliance, scaffolding | legal, context, cross-jurisdictional, compliance, scaffolding, lex, centralized, truth, engine, cross, jurisdictional, us |
 | `lightning-architecture-review` | Review Bitcoin Lightning Network protocol designs, compare channel factory approaches, and analyze Layer 2 scaling tradeoffs. Covers trust models, on-chain f... | lightning, architecture | lightning, architecture, review, bitcoin, network, protocol, designs, compare, channel, factory, approaches, analyze |
 | `linkerd-patterns` | Implement Linkerd service mesh patterns for lightweight, security-focused service mesh deployments. Use when setting up Linkerd, configuring traffic policies... | linkerd | linkerd, mesh, lightweight, security, deployments, setting, up, configuring, traffic, policies, implementing, zero |
+| `local-llm-expert` | Master local LLM inference, model selection, VRAM optimization, and local deployment using Ollama, llama.cpp, vLLM, and LM Studio. Expert in quantization for... | local, llm | local, llm, inference, model, selection, vram, optimization, deployment, ollama, llama, cpp, vllm |
 | `loki-mode` | Multi-agent autonomous startup system for Claude Code. Triggers on "Loki Mode". Orchestrates 100+ specialized agents across engineering, QA, DevOps, security... | loki, mode | loki, mode, multi, agent, autonomous, startup, claude, code, triggers, orchestrates, 100, specialized |
 | `m365-agents-dotnet` | Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-base... | m365, agents, dotnet | m365, agents, dotnet, microsoft, 365, sdk, net, multichannel, teams, copilot, studio, asp |
 | `m365-agents-py` | Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, AgentApplication routing, streaming respon... | m365, agents, py | m365, agents, py, microsoft, 365, sdk, python, multichannel, teams, copilot, studio, aiohttp |

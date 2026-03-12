@@ -80,6 +80,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "acceptance-orchestrator",
+    "path": "skills/acceptance-orchestrator",
+    "category": "uncategorized",
+    "name": "acceptance-orchestrator",
+    "description": "Use when a coding task should be driven end-to-end from issue intake through implementation, review, deployment, and acceptance verification with minimal human re-intervention.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-12"
+  },
+  {
     "id": "accessibility-compliance-accessibility-audit",
     "path": "skills/accessibility-compliance-accessibility-audit",
     "category": "uncategorized",
@@ -328,6 +338,16 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "ai-md",
+    "path": "skills/ai-md",
+    "category": "uncategorized",
+    "name": "ai-md",
+    "description": "Convert human-written CLAUDE.md into AI-native structured-label format. Battle-tested across 4 models. Same rules, fewer tokens, higher compliance.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-11"
   },
   {
     "id": "ai-ml",
@@ -3210,6 +3230,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "closed-loop-delivery",
+    "path": "skills/closed-loop-delivery",
+    "category": "uncategorized",
+    "name": "closed-loop-delivery",
+    "description": "Use when a coding task must be completed against explicit acceptance criteria with minimal user re-intervention across implementation, review feedback, deployment, and runtime verification.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-12"
+  },
+  {
     "id": "cloud-architect",
     "path": "skills/cloud-architect",
     "category": "uncategorized",
@@ -3848,6 +3878,16 @@
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
+  },
+  {
+    "id": "create-issue-gate",
+    "path": "skills/create-issue-gate",
+    "category": "uncategorized",
+    "name": "create-issue-gate",
+    "description": "Use when starting a new implementation task and an issue must be created with strict acceptance criteria gating before execution.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-12"
   },
   {
     "id": "create-pr",
@@ -4928,6 +4968,16 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "explain-like-socrates",
+    "path": "skills/explain-like-socrates",
+    "category": "uncategorized",
+    "name": "explain-like-socrates",
+    "description": "Explains concepts using Socratic-style dialogue. Use when the user asks to explain, teach or help understand a concept like socrates.\n",
+    "risk": "safe",
+    "source": "original",
+    "date_added": "2026-03-11"
   },
   {
     "id": "expo-api-routes",
@@ -6630,6 +6680,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "interview-coach",
+    "path": "skills/interview-coach",
+    "category": "productivity",
+    "name": "interview-coach",
+    "description": "Full job search coaching system \u2014 JD decoding, resume, storybank, mock interviews, transcript analysis, comp negotiation. 23 commands, persistent state.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-11"
+  },
+  {
     "id": "inventory-demand-planning",
     "path": "skills/inventory-demand-planning",
     "category": "uncategorized",
@@ -6788,6 +6848,16 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "keyword-extractor",
+    "path": "skills/keyword-extractor",
+    "category": "uncategorized",
+    "name": "keyword-extractor",
+    "description": "Extracts up to 50 highly relevant SEO keywords from text. Use when user wants to generate or extract keywords for given text.\n",
+    "risk": "safe",
+    "source": "original",
+    "date_added": "2026-03-11"
   },
   {
     "id": "klaviyo-automation",
@@ -6990,6 +7060,16 @@
     "date_added": "2026-03-06"
   },
   {
+    "id": "lex",
+    "path": "skills/lex",
+    "category": "business",
+    "name": "lex",
+    "description": "Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffolding.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-10"
+  },
+  {
     "id": "lightning-architecture-review",
     "path": "skills/lightning-architecture-review",
     "category": "uncategorized",
@@ -7188,6 +7268,16 @@
     "risk": "safe",
     "source": "original",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "local-llm-expert",
+    "path": "skills/local-llm-expert",
+    "category": "data-ai",
+    "name": "local-llm-expert",
+    "description": "Master local LLM inference, model selection, VRAM optimization, and local deployment using Ollama, llama.cpp, vLLM, and LM Studio. Expert in quantization formats (GGUF, EXL2) and local AI privacy.",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-03-11"
   },
   {
     "id": "logistics-exception-management",
@@ -7565,7 +7655,7 @@
     "category": "uncategorized",
     "name": "metasploit-framework",
     "description": "This skill should be used when the user asks to \"use Metasploit for penetration testing\", \"exploit vulnerabilities with msfconsole\", \"create payloads with msfvenom\", \"perform post-exp...",
-    "risk": "unknown",
+    "risk": "offensive",
     "source": "community",
     "date_added": "2026-02-27"
   },
@@ -10290,6 +10380,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "skill-check",
+    "path": "skills/skill-check",
+    "category": "development",
+    "name": "skill-check",
+    "description": "Validate Claude Code skills against the agentskills specification. Catches structural, semantic, and naming issues before users do.",
+    "risk": "safe",
+    "source": "https://github.com/olgasafonova/SkillCheck-Free",
+    "date_added": "2026-03-11"
+  },
+  {
     "id": "skill-creator",
     "path": "skills/skill-creator",
     "category": "meta",
@@ -12298,6 +12398,16 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-06"
+  },
+  {
+    "id": "yes-md",
+    "path": "skills/yes-md",
+    "category": "uncategorized",
+    "name": "yes-md",
+    "description": "6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-11"
   },
   {
     "id": "youtube-automation",

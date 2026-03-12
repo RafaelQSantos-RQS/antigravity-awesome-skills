@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1239,
+  "total": 1250,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -161,6 +161,31 @@
         "execution"
       ],
       "path": "skills/ab-test-setup/SKILL.md"
+    },
+    {
+      "id": "acceptance-orchestrator",
+      "name": "acceptance-orchestrator",
+      "description": "Use when a coding task should be driven end-to-end from issue intake through implementation, review, deployment, and acceptance verification with minimal human re-intervention.",
+      "category": "infrastructure",
+      "tags": [
+        "acceptance",
+        "orchestrator"
+      ],
+      "triggers": [
+        "acceptance",
+        "orchestrator",
+        "coding",
+        "task",
+        "should",
+        "driven",
+        "issue",
+        "intake",
+        "through",
+        "review",
+        "deployment",
+        "verification"
+      ],
+      "path": "skills/acceptance-orchestrator/SKILL.md"
     },
     {
       "id": "accessibility-compliance-accessibility-audit",
@@ -783,6 +808,31 @@
         "agent"
       ],
       "path": "skills/ai-engineer/SKILL.md"
+    },
+    {
+      "id": "ai-md",
+      "name": "ai-md",
+      "description": "Convert human-written CLAUDE.md into AI-native structured-label format. Battle-tested across 4 models. Same rules, fewer tokens, higher compliance.",
+      "category": "security",
+      "tags": [
+        "ai",
+        "md"
+      ],
+      "triggers": [
+        "ai",
+        "md",
+        "convert",
+        "human",
+        "written",
+        "claude",
+        "native",
+        "structured",
+        "label",
+        "format",
+        "battle",
+        "tested"
+      ],
+      "path": "skills/ai-md/SKILL.md"
     },
     {
       "id": "ai-ml",
@@ -7959,6 +8009,32 @@
       "path": "skills/close-automation/SKILL.md"
     },
     {
+      "id": "closed-loop-delivery",
+      "name": "closed-loop-delivery",
+      "description": "Use when a coding task must be completed against explicit acceptance criteria with minimal user re-intervention across implementation, review feedback, deployment, and runtime verification.",
+      "category": "infrastructure",
+      "tags": [
+        "closed",
+        "loop",
+        "delivery"
+      ],
+      "triggers": [
+        "closed",
+        "loop",
+        "delivery",
+        "coding",
+        "task",
+        "must",
+        "completed",
+        "against",
+        "explicit",
+        "acceptance",
+        "criteria",
+        "minimal"
+      ],
+      "path": "skills/closed-loop-delivery/SKILL.md"
+    },
+    {
       "id": "cloud-architect",
       "name": "cloud-architect",
       "description": "Expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns.",
@@ -9494,6 +9570,32 @@
         "starting"
       ],
       "path": "skills/create-branch/SKILL.md"
+    },
+    {
+      "id": "create-issue-gate",
+      "name": "create-issue-gate",
+      "description": "Use when starting a new implementation task and an issue must be created with strict acceptance criteria gating before execution.",
+      "category": "general",
+      "tags": [
+        "create",
+        "issue",
+        "gate"
+      ],
+      "triggers": [
+        "create",
+        "issue",
+        "gate",
+        "starting",
+        "new",
+        "task",
+        "must",
+        "created",
+        "strict",
+        "acceptance",
+        "criteria",
+        "gating"
+      ],
+      "path": "skills/create-issue-gate/SKILL.md"
     },
     {
       "id": "create-pr",
@@ -12082,6 +12184,32 @@
         "checkpoints"
       ],
       "path": "skills/executing-plans/SKILL.md"
+    },
+    {
+      "id": "explain-like-socrates",
+      "name": "explain-like-socrates",
+      "description": "Explains concepts using Socratic-style dialogue. Use when the user asks to explain, teach or help understand a concept like socrates.",
+      "category": "general",
+      "tags": [
+        "explain",
+        "like",
+        "socrates"
+      ],
+      "triggers": [
+        "explain",
+        "like",
+        "socrates",
+        "explains",
+        "concepts",
+        "socratic",
+        "style",
+        "dialogue",
+        "user",
+        "asks",
+        "teach",
+        "understand"
+      ],
+      "path": "skills/explain-like-socrates/SKILL.md"
     },
     {
       "id": "expo-api-routes",
@@ -16379,6 +16507,35 @@
       "path": "skills/internal-comms-community/SKILL.md"
     },
     {
+      "id": "interview-coach",
+      "name": "interview-coach",
+      "description": "Full job search coaching system — JD decoding, resume, storybank, mock interviews, transcript analysis, comp negotiation. 23 commands, persistent state.",
+      "category": "general",
+      "tags": [
+        "interview",
+        "job-search",
+        "coaching",
+        "career",
+        "storybank",
+        "negotiation"
+      ],
+      "triggers": [
+        "interview",
+        "job-search",
+        "coaching",
+        "career",
+        "storybank",
+        "negotiation",
+        "coach",
+        "full",
+        "job",
+        "search",
+        "jd",
+        "decoding"
+      ],
+      "path": "skills/interview-coach/SKILL.md"
+    },
+    {
       "id": "inventory-demand-planning",
       "name": "inventory-demand-planning",
       "description": "Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift estimation at multi-location retailers.",
@@ -16763,6 +16920,31 @@
         "quality"
       ],
       "path": "skills/kaizen/SKILL.md"
+    },
+    {
+      "id": "keyword-extractor",
+      "name": "keyword-extractor",
+      "description": "Extracts up to 50 highly relevant SEO keywords from text. Use when user wants to generate or extract keywords for given text.",
+      "category": "business",
+      "tags": [
+        "keyword",
+        "extractor"
+      ],
+      "triggers": [
+        "keyword",
+        "extractor",
+        "extracts",
+        "up",
+        "50",
+        "highly",
+        "relevant",
+        "seo",
+        "keywords",
+        "text",
+        "user",
+        "wants"
+      ],
+      "path": "skills/keyword-extractor/SKILL.md"
     },
     {
       "id": "klaviyo-automation",
@@ -17263,6 +17445,34 @@
         "score"
       ],
       "path": "skills/leiloeiro-risco/SKILL.md"
+    },
+    {
+      "id": "lex",
+      "name": "lex",
+      "description": "Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffolding.",
+      "category": "security",
+      "tags": [
+        "legal",
+        "context",
+        "cross-jurisdictional",
+        "compliance",
+        "scaffolding"
+      ],
+      "triggers": [
+        "legal",
+        "context",
+        "cross-jurisdictional",
+        "compliance",
+        "scaffolding",
+        "lex",
+        "centralized",
+        "truth",
+        "engine",
+        "cross",
+        "jurisdictional",
+        "us"
+      ],
+      "path": "skills/lex/SKILL.md"
     },
     {
       "id": "libreoffice/base",
@@ -17883,6 +18093,31 @@
         "sites"
       ],
       "path": "skills/local-legal-seo-audit/SKILL.md"
+    },
+    {
+      "id": "local-llm-expert",
+      "name": "local-llm-expert",
+      "description": "Master local LLM inference, model selection, VRAM optimization, and local deployment using Ollama, llama.cpp, vLLM, and LM Studio. Expert in quantization formats (GGUF, EXL2) and local AI privacy.",
+      "category": "security",
+      "tags": [
+        "local",
+        "llm"
+      ],
+      "triggers": [
+        "local",
+        "llm",
+        "inference",
+        "model",
+        "selection",
+        "vram",
+        "optimization",
+        "deployment",
+        "ollama",
+        "llama",
+        "cpp",
+        "vllm"
+      ],
+      "path": "skills/local-llm-expert/SKILL.md"
     },
     {
       "id": "logistics-exception-management",
@@ -25550,6 +25785,34 @@
       "path": "skills/similarity-search-patterns/SKILL.md"
     },
     {
+      "id": "skill-check",
+      "name": "skill-check",
+      "description": "Validate Claude Code skills against the agentskills specification. Catches structural, semantic, and naming issues before users do.",
+      "category": "general",
+      "tags": [
+        "validation",
+        "linter",
+        "agentskills",
+        "skill-authoring",
+        "code-quality"
+      ],
+      "triggers": [
+        "validation",
+        "linter",
+        "agentskills",
+        "skill-authoring",
+        "code-quality",
+        "skill",
+        "check",
+        "validate",
+        "claude",
+        "code",
+        "skills",
+        "against"
+      ],
+      "path": "skills/skill-check/SKILL.md"
+    },
+    {
       "id": "skill-creator",
       "name": "skill-creator",
       "description": "This skill should be used when the user asks to create a new skill, build a skill, make a custom skill, develop a CLI skill, or wants to extend the CLI with new capabilities. Automates the entire s...",
@@ -30350,6 +30613,31 @@
         "de"
       ],
       "path": "skills/yann-lecun-tecnico/SKILL.md"
+    },
+    {
+      "id": "yes-md",
+      "name": "yes-md",
+      "description": "6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest.",
+      "category": "data-ai",
+      "tags": [
+        "yes",
+        "md"
+      ],
+      "triggers": [
+        "yes",
+        "md",
+        "layer",
+        "ai",
+        "governance",
+        "safety",
+        "gates",
+        "evidence",
+        "debugging",
+        "anti",
+        "slack",
+        "detection"
+      ],
+      "path": "skills/yes-md/SKILL.md"
     },
     {
       "id": "youtube-automation",

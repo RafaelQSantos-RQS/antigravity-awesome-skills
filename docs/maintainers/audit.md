@@ -15,7 +15,7 @@ This document summarizes the repository coherence audit performed after the `app
 
 ### 1. Conteggi
 
-- `README.md`, `package.json`, and generated artifacts are aligned to the current collection size (`1,204+` skills).
+- `README.md`, `package.json`, and generated artifacts are aligned to the current collection size (`1,250+` skills).
 - `npm run sync:all` and `npm run catalog` are the canonical commands for keeping counts and generated files synchronized.
 
 ### 2. Validazione skill
