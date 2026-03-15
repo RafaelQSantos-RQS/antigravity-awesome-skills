@@ -38,6 +38,31 @@ class FrontmatterParsingSecurityTests(unittest.TestCase):
         self.assertIsNone(metadata)
         self.assertTrue(any("mapping" in error.lower() for error in errors))
 
+    def test_validate_skills_normalizes_unquoted_yaml_dates(self):
+        content = "---\nname: demo\ndescription: ok\ndate_added: 2026-03-15\n---\nbody\n"
+        metadata, errors = validate_skills.parse_frontmatter(content)
+
+        self.assertEqual(errors, [])
+        self.assertEqual(metadata["date_added"], "2026-03-15")
+
+    def test_generate_index_serializes_unquoted_yaml_dates(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            skills_dir = root / "skills"
+            skill_dir = skills_dir / "demo"
+            output_file = root / "skills_index.json"
+
+            skill_dir.mkdir(parents=True)
+            (skill_dir / "SKILL.md").write_text(
+                "---\nname: demo\ndescription: ok\ndate_added: 2026-03-15\n---\nBody\n",
+                encoding="utf-8",
+            )
+
+            skills = generate_index.generate_index(str(skills_dir), str(output_file))
+
+            self.assertEqual(skills[0]["date_added"], "2026-03-15")
+            self.assertIn('"date_added": "2026-03-15"', output_file.read_text(encoding="utf-8"))
+
     def test_generate_index_ignores_symlinked_skill_markdown(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)

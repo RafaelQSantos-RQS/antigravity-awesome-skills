@@ -3,6 +3,7 @@ import json
 import re
 import sys
 from collections.abc import Mapping
+from datetime import date, datetime
 
 import yaml
 from _project_paths import find_repo_root
@@ -12,6 +13,15 @@ if sys.platform == 'win32':
     import io
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+
+def normalize_yaml_value(value):
+    if isinstance(value, Mapping):
+        return {key: normalize_yaml_value(val) for key, val in value.items()}
+    if isinstance(value, list):
+        return [normalize_yaml_value(item) for item in value]
+    if isinstance(value, (date, datetime)):
+        return value.isoformat()
+    return value
 
 def parse_frontmatter(content):
     """
@@ -43,6 +53,7 @@ def parse_frontmatter(content):
     
     try:
         parsed = yaml.safe_load(sanitized_yaml) or {}
+        parsed = normalize_yaml_value(parsed)
         if not isinstance(parsed, Mapping):
             print("⚠️ YAML frontmatter must be a mapping/object")
             return {}

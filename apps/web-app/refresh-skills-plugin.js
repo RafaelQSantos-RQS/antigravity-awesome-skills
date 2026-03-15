@@ -49,6 +49,21 @@ function git(cmd) {
     return execSync(`git ${cmd}`, { cwd: ROOT_DIR, encoding: 'utf-8', stdio: ['pipe', 'pipe', 'pipe'] }).trim();
 }
 
+function isAllowedDevOrigin(req) {
+    const host = req.headers?.host;
+    const origin = req.headers?.origin;
+
+    if (!host || !origin) {
+        return false;
+    }
+
+    try {
+        return new URL(origin).host === host;
+    } catch {
+        return false;
+    }
+}
+
 /** Ensure the upstream remote exists. */
 function ensureUpstream() {
     const remotes = git('remote');
@@ -250,6 +265,19 @@ export default function refreshSkillsPlugin() {
             server.middlewares.use('/api/refresh-skills', async (req, res) => {
                 res.setHeader('Content-Type', 'application/json');
 
+                if (req.method !== 'POST') {
+                    res.statusCode = 405;
+                    res.setHeader('Allow', 'POST');
+                    res.end(JSON.stringify({ success: false, error: 'Method not allowed' }));
+                    return;
+                }
+
+                if (!isAllowedDevOrigin(req)) {
+                    res.statusCode = 403;
+                    res.end(JSON.stringify({ success: false, error: 'Forbidden origin' }));
+                    return;
+                }
+
                 try {
                     let result;
 
@@ -287,3 +315,5 @@ export default function refreshSkillsPlugin() {
         }
     };
 }
+
+export { isAllowedDevOrigin };

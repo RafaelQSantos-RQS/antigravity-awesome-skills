@@ -5,6 +5,7 @@ import sys
 import io
 import yaml
 from collections.abc import Mapping
+from datetime import date, datetime
 from _project_paths import find_repo_root
 
 
@@ -38,6 +39,15 @@ WHEN_TO_USE_PATTERNS = [
 def has_when_to_use_section(content):
     return any(pattern.search(content) for pattern in WHEN_TO_USE_PATTERNS)
 
+def normalize_yaml_value(value):
+    if isinstance(value, Mapping):
+        return {key: normalize_yaml_value(val) for key, val in value.items()}
+    if isinstance(value, list):
+        return [normalize_yaml_value(item) for item in value]
+    if isinstance(value, (date, datetime)):
+        return value.isoformat()
+    return value
+
 def parse_frontmatter(content, rel_path=None):
     """
     Parse frontmatter using PyYAML for robustness.
@@ -51,6 +61,7 @@ def parse_frontmatter(content, rel_path=None):
     fm_errors = []
     try:
         metadata = yaml.safe_load(fm_text) or {}
+        metadata = normalize_yaml_value(metadata)
         if not isinstance(metadata, Mapping):
             return None, ["Frontmatter must be a YAML mapping/object."]
         
